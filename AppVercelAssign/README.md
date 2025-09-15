@@ -1,14 +1,22 @@
- Appversal Assignment - Dashboard UI
-Deployment link- https://app-vercel-assign.vercel.app/
-This is a React + Vite project I built for an assignment.  
-The goal was to create a clean and responsive dashboard with summary cards, charts, and navigation.  
+Appversal Assignment – Dashboard UI
 
- Tech Stack
-- React 18 + Vite
-- Redux Toolkit
-- Tailwind CSS
-- Recharts
+Live Demo: https://app-vercel-assign.vercel.app/
 
+This project is a responsive dashboard application created as part of an assignment. It features interactive charts, overview cards, and a user-friendly navigation system, all designed for a clean and professional interface.
+
+Technology Stack
+
+React 18 with Vite for fast and efficient development
+
+Redux Toolkit for state management
+
+Tailwind CSS for modern styling
+
+Recharts for visual data representation
+
+Running the Project Locally
+
+To run the project on your local machine, follow these steps:
  Getting Started
 ```bash
 npm install
