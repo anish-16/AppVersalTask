@@ -1,4 +1,4 @@
-// components/Sidebar.js
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setActiveTab } from '../redux/sidebarSlice';
@@ -15,14 +15,14 @@ const Sidebar = () => {
     ];
 
     return (
-        <div className="w-16 bg-gradient-to-b from-orange-500 to-orange-600 flex flex-col items-center py-6 space-y-8">
+        <div className="w-16 bg-gradient-to-b from-purple-300 to-purple-500 flex flex-col items-center py-6 space-y-8">
             <div className="text-white text-2xl mb-4">
                 <span>📈</span>
             </div>
             {tabs.map((tab) => (
                 <button
                     key={tab.id}
-                    className={`p-3 rounded-lg transition-all duration-200 ${activeTab === tab.id ? 'bg-orange-700' : 'hover:bg-orange-400'
+                    className={`p-3 rounded-lg transition-all duration-200 ${activeTab === tab.id ? 'bg-purple-600' : 'hover:bg-purple-400'
                         }`}
                     onClick={() => dispatch(setActiveTab(tab.id))}
                     title={tab.label}
