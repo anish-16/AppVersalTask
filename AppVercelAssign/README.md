@@ -1,4 +1,4 @@
-Appversal Assignment – Dashboard UI
+## Appversal Assignment – Dashboard UI
 
 Live Demo: https://app-vercel-assign.vercel.app/
 
@@ -16,7 +16,7 @@ Recharts for visual data representation
 
 Running the Project Locally
 
-To run the project on your local machine, follow these steps:
+To run the project on your local machine, follow these steps:git
  Getting Started
 ```bash
 npm install
